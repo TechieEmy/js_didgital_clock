@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: url("https://img.freepik.com/free-photo/vestrahorn-mountains-stokksnes-iceland_335224-667.jpg?w=900&t=st=1669669832~exp=1669670432~hmac=2b70c80dee6f41db4803cd5c52fa611df30c886b186381fedb249ca2608ef50d");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.clock{
+                    display: flex;
+                    justify-content: center;
+
+}
+
+h1{
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    color: crimson;
+                    font-size: 14px;
+                    text-align: center;
+}
+.display{
+                    margin: 5px;
+                    position: relative;
+}
+
+.clock span{
+                    width: 100px;
+                    height: 80px;
+                    background-color: dodgerblue;
+                    opacity: .8;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 50px;
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text{
+                    font-size: 15px;
+                    height: 30px;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    background: darkblue;
+                    opacity: 80%;
+}
+
+.clock .ampm{
+                    bottom: 0;
+                    position: absolute;
+                    width: 60px;
+                    height: 20px;
+                    font-size: 20px;
+                    background-color: crimson;
+}
